@@ -1,0 +1,115 @@
+#addNewBickeModalBtn{
+    background: #A8BD37;
+    border-radius: 10px;
+    color: black;
+    font-weight: 500;
+    height: 60px;
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 1%;
+}
+
+#addNewBickeModalBtn:hover{
+    background: #1D8895;
+    box-shadow: inset;
+    font-weight: 800;
+}
+
+#logoImg{
+    border-radius: 10px;
+    height: auto;
+    width: 200px;
+}
+
+#searchBtn{
+    background: #A8BD37;
+    color: black;
+    font-weight: 500;
+    height: 60px;
+    width: 50px;
+}
+
+#searchBtn:hover{
+    background: #ADE4EB;
+    box-shadow: inset;
+    font-weight: 800;
+}
+
+nav{
+    background-color: #3b3b3b;
+}
+
+body{
+    margin-bottom: 7%;
+    background-image: url("../bg-image-body.jpg");
+    background-size: cover;
+}
+
+header{
+    background-color: #A8BD37;
+}
+
+.basicBtn{
+    background: #1e6cfc;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+#top_search_bar{
+    background-color: #1D8895;
+    margin-bottom: 20px;
+}
+
+#search_form{
+    width: 50%;
+    margin-left: 28%;
+}
+
+table{
+    padding: 10px;
+    background-color: #ADE4EB;
+    /* opacity: 95%; */
+    border-radius: 2%;
+    width: 100%;
+}
+
+#content_row{
+    height: 40px;
+    border: 1px solid black;
+    padding: 5%;
+    font-weight: 500;
+}
+
+#content_row:hover{
+    background-color: #664C3A;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+td{
+    border: 1px solid black;
+    height: fit-content;
+}
+
+th{
+    border: 1px solid black;
+    padding: 20px;
+    font-size: xx-large;
+}
+
+#viewBicycleBtn{
+    margin: 10px;
+    background: #A8BD37;
+    border-radius: 10px;
+    color: black;
+    font-weight: 500;
+    height: 60px;
+    width: 200px;
+}
+
+#viewBicycleBtn:hover{
+    background: #1D8895;
+    box-shadow: inset;
+    font-weight: 800;
+}
+

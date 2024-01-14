@@ -1,0 +1,175 @@
+html{ 
+	background-repeat: no-repeat;
+  background-size: 100% 100%;
+ 	background-attachment: fixed;
+}
+
+footer{
+  background-color:#bdc9d5;
+  height: 3.9%;
+  bottom: 0;
+  width: 100%;
+  right: 0;
+  position: absolute;
+  text-shadow: 2.1px 0.8px 1.7px #c8b5b9;
+  color: #000000;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  vertical-align: middle;
+  text-align: center;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+header{
+  background-color: #A8BD37;
+}
+
+body{
+  margin-bottom: 7%;
+  background-image: url("images/bg-image-body.jpg");
+  background-size: cover;
+  background-color: #b9f0c2;
+}
+
+#logoImg{
+  border-radius: 10px;
+  height: auto;
+  width: 200px;
+}
+
+.btnGen{
+  margin: 10px;
+  background: #A8BD37;
+  border-radius: 10px;
+  color: black;
+  font-weight: 500;
+  height: 40px;
+  width: fit-content;
+}
+
+#submit:hover{
+  background-color: #1D8895;
+  box-shadow: inset;
+  font-weight: 800;
+}
+
+#submit{
+  border-radius:25px; background-color: #A8BD37; width:90%; height:80%;
+}
+
+#areabottom{
+  float: right;
+  width: 95%;
+  margin: 0;
+  padding: 0;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.5px;
+  right: 2.5%;
+  bottom: 10.5%;
+  position: absolute;
+  height: 62%;
+  overflow: auto;
+  background-color: #313131;
+}
+
+#filter{
+  float: right;
+  width: 30%;
+  margin: 0;
+  padding: 0;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.5px;
+  left: 2.5%;
+  bottom: 75%;
+  position: absolute;
+  height: 10%;
+  overflow: auto;
+  background-color: #313131;
+  color: #ffffff;
+  display: flex;
+  text-align: center;
+  align-items: center; 
+  justify-content: center;
+}
+
+#search{
+  float: right;
+  width: 30%;
+  margin: 0;
+  padding: 0;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.5px;
+  right: 2.5%;
+  bottom: 76%;
+  position: absolute;
+  height: 8%;
+  overflow: auto;
+  background-color: #313131;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.jobcardInList {
+  width: 95%;
+  margin: 0;
+  padding: 0;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.5px;
+  border-radius: 25px;
+  overflow: auto;
+  background-color: #bfbfbf;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.viewJobcard{
+  background-color: #A8BD37;
+  overflow-wrap:normal;
+  width:70%;
+  height: 80%;
+  overflow-wrap:normal;
+  width:35%;
+  height: 80%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 32.5%;
+  margin-right: 32.5%;
+  display:table;
+  border-radius:45px
+}
+
+.viewJobcard:hover{
+  background: #1D8895;
+  box-shadow: inset;
+  font-weight: 800;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 32.5%;
+  margin-right: 32.5%;
+  display:table;
+  overflow-wrap:normal;
+  width:35%;
+  height: 80%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius:45px
+}
+
+nav{
+  background-color: #3b3b3b;
+}

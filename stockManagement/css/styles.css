@@ -1,0 +1,306 @@
+.header{
+    background-color: #A8BD37;;
+    text-align: center;
+    display: block;
+    height: 200px;
+    object-fit: fill;
+}
+.header img{
+    
+    width: 450px;
+    height: 200px;
+    border: black 1px;
+}
+
+.navul li{
+	list-style-type: none;
+	margin: 0 2vw;
+	font-size: 3vh;
+    vertical-align: middle;
+    
+    margin:0;
+    padding: 0;
+	border-right: thin 1px lightblue;
+	display:inline-block;
+	padding-right:  5px;
+    padding-left: 150px;
+    height: 100px;
+   position: relative;
+   top: 40px;
+   left: 5px;
+   border: #bec919;
+   
+}
+
+.navul a{  
+	text-decoration: none;
+	color: white;
+	padding:2px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+	
+}
+.navul a:hover{
+	background-color:#191d19;;
+	
+}
+a.active{ 
+	color: aqua;}
+
+.navul{
+
+	
+    background-color: #1D8895;
+	border: #bec919;
+	
+	
+}
+
+.name{
+    height: 70px;
+    padding-top: 40px;
+    margin-bottom: 30px;
+    background-color: #A8BD37;
+    padding-bottom: 80px;
+}
+.sorting{
+    padding-top: 15px;
+    height: 70px;
+    
+}
+.sorting button, select{
+    background-color: #1D8895;
+}
+
+
+
+.name h1{
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    text-align: center;
+    
+}
+.stocklist{
+    width: 100%;
+    text-align: center;
+    height:50px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.stocklist th{
+    height:50px;
+    background-color: #ADE4EB;
+    font-size: 30px;
+}
+.stocklist td{
+    background-color: #ADE4EB;
+   
+}
+.buttons button{
+text-align: center;
+}
+.stocklist table, th, td {
+    
+    padding-bottom: 40px;
+    border: 1px solid black;
+    
+}
+
+.search{
+    text-align: center;
+   background-color: #1D8895;
+   padding-top: 5px;
+   height: 80px;
+   padding-bottom: 10px;
+}
+.searchButton{
+width:50px;
+height: 67px;
+border: none;
+box-shadow: none;
+border-radius: 10px;
+background-color: #A8BD37;;
+}
+.searchTerm{
+    width: 30%;
+    height: 69px;
+    border-color: #caeb8d;
+    box-shadow: none;
+    border-radius: 10px;
+    border:none;
+}
+
+.change{
+ 
+    background-color: #A8BD37;
+    color: black;
+    height: 50px;
+    width: 120px;
+border-radius: 12px;
+
+}
+.change a{
+    text-decoration: none;
+    color: inherit; 
+    display: block;
+    height: 50px;
+    width: 100px;
+}
+
+.addstuff{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.add table, th, td{
+    border:none;
+}
+.add h1{
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.add input[type=text], .add input[type=number]{
+padding: 40px;
+border-radius: 10px;
+border: 2px solid #1D8895;
+background-color: white;
+
+}
+.addname{
+    background-color: #A8BD37;
+    border: 2px solid #1D8895;
+    border-radius: 5px;
+    border-left: none;
+}
+.add select{
+    border-radius: 10px;
+    height: 40px;
+    width: 160px;
+    background-color: #A8BD37;
+    border: 2px solid #1D8895;
+}
+.add textarea{
+    background-color: white;
+    border-radius: 10px;
+border-color: #1D8895;
+width: 280px;
+}
+.add label{
+    width: 160px;
+    background-color: white;
+    border: 2px solid #1D8895;
+    border-radius: 10px;
+}
+.addbtn{
+    margin-bottom: 70px;
+     
+    background-color: #A8BD37;
+    color: black;
+    height: 50px;
+    width: 20%;
+border-radius: 12px;
+}
+.formcss{
+    text-align: left;
+    padding-bottom: 100px;
+}
+
+.formcss label{
+	font-size: 22px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+
+.formcss input[type=submit], .formcss input[type =button]{
+	background: #1e6cfc;
+	width: 370px;
+	height: 50px;
+	border-radius: 12px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    border:none;
+}
+.formcss input[type= text], .formcss input[type =number], .formcss input[type =textarea], .formcss input[type =option]{
+	width:370px;
+    height: 30px;
+    border : solid 2px;
+    border-color: #caeb8d;
+    padding: 5px;
+    margin-top: 10px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+
+textarea{
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    border: solid 2px;
+    border-color: #caeb8d;
+    padding: 5px;
+    margin-top: 10px;
+}
+.item{
+    width: 30%;
+    background-color: rgba(173,228,235, 0.3);
+    
+}
+
+.space{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 900px;
+}
+.back{
+    background-image: url("../../bg-image-body.jpg");
+    padding-bottom: 100px;
+
+}
+
+.container {
+    display: table;
+    width: 100%;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    padding-bottom: 150px;
+    margin-bottom: 300px;
+    
+      }
+  
+  .left-half {
+    background-color: #ADE4EB;
+    position: absolute;
+    left: 0px;
+    width: 50%;
+    height: 80%;
+  }
+  
+  .right-half {
+    background-color: #7cd2dd;
+    position: absolute;
+    right: 0px;
+    width: 50%;
+    height: 80%;
+  }
+  a {
+    text-decoration: none;
+    color: inherit; 
+
+} 
+
+.brand td, th{
+padding: 20px;
+}
+
+.hr{
+ background-color: grey;   
+}
+.footer a{
+    padding-left: 150px;
+}
+.footer a:hover{
+    color: white;
+background-color: black;
+}
+.desc{
+    width: 30%;
+}
+.navbar{
+    background-color: #3b3b3b;
+}
+.morespace{
+    margin-bottom: 10%;
+}

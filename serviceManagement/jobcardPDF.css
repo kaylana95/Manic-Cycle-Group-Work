@@ -1,0 +1,38 @@
+html{ 
+    background-color: #ffffff;
+    background-size: 100% 100%;
+}
+
+.jobcardInfoArea{
+    width: 95%;
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-color: black;
+    border-width: 1.5px;
+    right: 2.5%;
+    top: 1%;
+    position: absolute;
+    height: 22%;
+    overflow: auto;
+    background-color: #f9ffde;
+    border-radius:10px
+}
+
+.taskArea{
+    width: 95%;
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-color: black;
+    border-width: 1.5px;
+    left: 2.5%;
+    top:26%;
+    position: absolute;
+    overflow: auto;
+    background-color: #f9ffde;
+    border-radius:10px
+}
+
+
+

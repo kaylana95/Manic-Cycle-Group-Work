@@ -1,0 +1,230 @@
+html{
+	background-repeat: no-repeat;
+  background-size: 100% 100%;
+ 	background-attachment: fixed;
+}
+
+footer{
+  background-color:#bdc9d5;
+  height: 3.9%;
+  bottom: 0;
+  width: 100%;
+  right: 0;
+  position: absolute;
+  text-shadow: 2.1px 0.8px 1.7px #c8b5b9;
+  color: #000000;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  vertical-align: middle;
+  text-align: center;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+header{
+  background-color: #A8BD37;
+}
+
+body{
+  margin-bottom: 7%;
+  background-image: url("images/bg-image-body.jpg");
+  background-size: cover;
+  background-color: #b9f0c2;
+}
+
+#logoImg{
+  border-radius: 10px;
+  height: auto;
+  width: 200px;
+}
+
+.btnGen{
+  margin: 10px;
+  background: #A8BD37;
+  border-radius: 10px;
+  color: black;
+  font-weight: 500;
+  height: 40px;
+  width: fit-content;
+}
+
+.btnGen:hover{
+  background: #1D8895;
+  box-shadow: inset;
+  font-weight: 800;
+}
+
+.navButton{
+  background-color: #000000;
+  position: absolute;
+  overflow-wrap:normal;
+  width:20%;
+  height:8%;
+  border: 1px solid #00FF0A;
+  color: #F9FE00;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:0px;
+  border-radius:45px
+}
+
+.navButton:hover {
+  background-color: #00FF0A;
+  border: 1px solid #F9FE00;
+  color: #000000;
+}
+
+.forumArea{
+  width: 30%;
+  margin: 0;
+  padding: 0;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.5px;
+  right: 2.5%;
+  bottom: 10.5%;
+  position: absolute;
+  height: 54%;
+  overflow: auto;
+  background-color: #f9ffde;
+  border-radius:10px
+}
+
+.jobcardInfoArea{
+  width: 95%;
+  margin: 0;
+  padding: 0;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.5px;
+  right: 2.5%;
+  bottom: 65%;
+  position: absolute;
+  height: 21.5%;
+  overflow: auto;
+  background-color: #f9ffde;
+  border-radius:10px
+}
+
+.taskArea{
+  width: 62.5%;
+  margin: 0;
+  padding: 0;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.5px;
+  left: 2.5%;
+  bottom: 10.5%;
+  position: absolute;
+  height: 54%;
+  overflow: auto;
+  background-color: #f9ffde;
+  border-radius:10px
+}
+
+#postContentArea{
+  width: 99.0%;
+  margin: 0;
+  padding: 0;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.5px;
+  left: 0.5%;
+  bottom: 17%;
+  position: absolute;
+  height: 82.5%;
+  overflow: auto;
+  background-color: #f9ffde;
+  border-radius:10px;
+  display: inline-block;
+  word-break: break-word;
+}
+
+.aPost{
+  width: 98.0%;
+  margin: 0;
+  padding: 0;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.5px;
+  left: 1%;
+  background-color: #ddffd1;
+  border-radius:5px
+}
+
+.newPost{
+  width: 99.0%;
+  margin: 0;
+  padding: 0;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.5px;
+  left: 0.5%;
+  bottom: 0.5%;
+  position: absolute;
+  height: 16%;
+  overflow: hidden;
+  background-color: #f9ffde;
+  border-radius:10px
+}
+
+#submitpost:hover{
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+.editJB:hover {
+  background: #1D8895;
+  box-shadow: inset;
+  font-weight: 800;
+}
+
+.editJB{
+  margin: 10px;
+  background: #A8BD37;
+  border-radius: 10px;
+  color: black;
+  font-weight: 500;
+}
+
+#newTask:hover {
+  background: #1D8895;
+  box-shadow: inset;
+  font-weight: 800;
+}
+
+#newTask{
+  margin: 10px;
+  background: #A8BD37;
+  border-radius: 10px;
+  color: black;
+  font-weight: 500;
+  height: 10%;
+  width: fit-content;
+}
+.taskbutton:hover {
+  background: #1D8895;
+  box-shadow: inset;
+  font-weight: 800;
+}
+
+
+.taskbutton{
+  margin: 10px;
+  background: #A8BD37;
+  border-radius: 10px;
+  color: black;
+  font-weight: 500;
+}
+
+
+nav{
+  background-color: #3b3b3b;
+}
